@@ -1,4 +1,5 @@
-# Lab 2
+# Anh Bach
+# CSE 15L Lab Reports
 
 ## Task 1: Screenshot 
 ![Image](photo/Week2.png)
