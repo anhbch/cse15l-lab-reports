@@ -1,6 +1,7 @@
+***
 # Week 2 Lab Report 
 ***
-> *(This instruction steps are for Macbook. Some steps might be different if you are on Windows)*
+*(This instruction steps are for Macbook. Some steps might be different if you are on Windows)* 
 ## Installing Visual Studio Code
 * Go to the [Vscode website](https://code.visualstudio.com/) and click the download button and follow the instruction steps to install Vscode. 
 * After installing, open VScode and you will see this window: 
@@ -18,13 +19,22 @@
     ![Image](photo/loggedin.png)
 
 ## Run Some Commands
+* After connecting to remote server in your terminal, you can try running different commands. 
 * **This is some useful command to try:**
     ```
     cd: change directory 
     ls: listing directory 
-    pwd: 
-     
+    pwd: print working directory
+    cp: copy files and directories
+    cat: display the content of text files and to   combine several files into one file
+    exit: log out of the remote server in your terminal
     ```
+    *Sample terminal window for some useful commands:*
+    ![Image](photo/commandex1.png)
+    ![Image](photo/commandex2.png)
+
+
+
 
 
 
