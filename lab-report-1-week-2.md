@@ -62,9 +62,12 @@
         ```
     * Then, copy the public (not the private) key to the .ssh directory of your user account on the server by the following steps:
         1. Type this command to log into your server and enter your password:
-            `$ ssh cs15lwi22ahw@ieng6.ucsd.edu`
+        
+        `$ ssh cs15lwi22ahw@ieng6.ucsd.edu`
         2. On server, use command `$ mkdir .ssh` to make a new directory. Then log out of the server.
-        3. On the client (your computer), type this command `$ scp /Users/kimanh/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+        3. On the client (your computer), type this command: 
+        
+        `$ scp /Users/kimanh/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
     * After all the steps, you can use `ssh` and `scp` without using your password. Your terminal window will look like this:
         ![Image](photo/sshkey.png)
 
