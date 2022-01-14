@@ -3,7 +3,7 @@
 ***
 *(This instruction steps are for Macbook. Some steps might be different if you are on Windows)* 
 ## Installing Visual Studio Code
-* Go to the [Vscode website](https://code.visualstudio.com/) and click the download button and follow the instruction steps to install Vscode. 
+* Go to the [Vscode website](https://code.visualstudio.com/) and click the download button and follow the steps to install Vscode. 
 * After installing, open VScode and you will see this window: 
 ![Image](photo/Vscode.png)
 
@@ -15,7 +15,7 @@
         ```
         $ ssh cs15lwi22ahw@ieng6.ucsd.edu
         ```
-    3. If this is your first time connect to the sever, type `yes` to the message and press enter. Then, enter your password. Your terminal window should look like this after it is connected:
+    3. If this is your first time connect to the server, type `yes` to the message and press enter. Then, enter your password. Your terminal window should look like this after it is connected:
     ![Image](photo/loggedin.png)
 
 ## Run Some Commands
@@ -35,14 +35,14 @@
     ![Image](photo/commandex1.png)
     ![Image](photo/commandex2.png)
 
-## Moving Files with `scp`
+## Moving Files with SCP
 * **scp:**  copy file(s) from your computer to remote computer. The command is always run from *client* (from your computer, not logged into `ieng6`)
 * To try command `scp`:
     1. Create a file on your computer called `WhereAmI.java`.
     2. Run the file by using `javac` and `java` on your computer.
     3. In terminal from the directory where you made this file, use the command: (replace the *ahw* with the letters in your course-specific account)
         ```
-        scp WhereAmI.java cs15lwi22ahw@ieng6.ucsd.edu:~/
+        $ scp WhereAmI.java cs15lwi22ahw@ieng6.ucsd.edu:~/
         ```
     4. Then use `ssh` to log into *ieng6* again, you can see the file in your home directory. 
         ![Image](photo/scp.png)
@@ -61,10 +61,10 @@
         Your public key has been saved in /Users/kimanh/.ssh/id_rsa.pub.
         ```
     * Then, copy the public (not the private) key to the .ssh directory of your user account on the server by the following steps:
-        1. Type this command to log into your sever and enter your password:
+        1. Type this command to log into your server and enter your password:
             `$ ssh cs15lwi22ahw@ieng6.ucsd.edu`
         2. On server, use command `mkdir .ssh` to make a new directory. Then log out of the server.
-        3. On the client (your computer), type this command `scp /Users/kimanh/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+        3. On the client (your computer), type this command `$ scp /Users/kimanh/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
     * After all the steps, you can use `ssh` and `scp` without using your password. Your terminal window will look like this:
         ![Image](photo/sshkey.png)
 
