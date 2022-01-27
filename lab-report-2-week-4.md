@@ -8,7 +8,7 @@
 3.  Output screenshot of the symptom of the *failure-inducing input*: 
 ![Image](photo2/1-error.png)
 4. Describing the relationship between the bug, the symptom, and the failure-inducing input: 
-    * The test file has an invalid. However, the original code doesn't check if the link is valid, it only check for correct syntax *(which has **[]()** with no space between)* and prints out the content inside **()**. Therefore, everything inside is considered valid. Thus, we received an error message that the expected value is empty but the program prints out an invalid link.
+    * The test file has an invalid. However, the original code doesn't check if the link is valid, it only check for correct syntax *(which has **[] ()** with no space between)* and prints out the content inside **()**. Therefore, everything inside is considered valid. Thus, we received an error message that the expected value is empty but the program prints out an invalid link.
 
 ## Second Code Change
 1. Screenshot of the code change diff from Github:
