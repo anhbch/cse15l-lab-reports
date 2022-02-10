@@ -7,5 +7,7 @@
 
 **Lab 2:** [Tests, Symptoms and Bugs](https://anhbch.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
+**Lab 3:** [Copy Directories with SCP](https://anhbch.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
 
 
