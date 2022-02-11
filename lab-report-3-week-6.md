@@ -5,10 +5,10 @@
 ## Group Choice 3 - Copy Whole Directories with `scp -r`
 Use `scp` to copy *recursively*, copy a directory and all the files and directories within it, which means copy the whole **CSE15L-TheLunaMoths** directory to the **ieng6** server with one command. 
 
-* Checking the working directory (**CSE15L-TheLunaMoths**) before doing `scp` command:
+1. Checking the working directory (**CSE15L-TheLunaMoths**) before doing `scp` command:
 ![Image](photo3/directory.png)
 
-* Using `scp` to copy this directory to the remote server. The `-r` option makes `scp` to work *recursively*. The `.` is the *source* - which is current directory. The `~/CSE15L-TheLunaMoths` tells `scp` to create `CSE15L-TheLunaMoths` directory in the remote server, **ieng6** (if it doesn't exist), thus copy the contents of this directory recursively on the remove server.
+2. Using `scp` to copy this directory to the remote server. The `-r` option makes `scp` to work *recursively*. The `.` is the *source* - which is current directory. The `~/CSE15L-TheLunaMoths` tells `scp` to create `CSE15L-TheLunaMoths` directory in the remote server, **ieng6** (if it doesn't exist), thus copy the contents of this directory recursively on the remove server.
 
     *Command:*
     ```
@@ -23,7 +23,7 @@ Use `scp` to copy *recursively*, copy a directory and all the files and director
     ![Image](photo3/scp3.png)
     ![Image](photo3/scp4.png)
 
-* To be more control with the files that we want to copy to the remote server, we can use this command:
+3. To be more control with the files that we want to copy to the remote server, we can use this command:
 
     *Command:*
     ```
@@ -33,7 +33,7 @@ Use `scp` to copy *recursively*, copy a directory and all the files and director
     *Screenshot of an example that using the command to copy files:*
     ![Image](photo3/copytypes.png)
 
-* After copying the directory into the remote server, we can login to the ieng6's account and see all the files:
+4. After copying the directory into the remote server, we can login to the ieng6's account and see all the files:
 
     *Command:*
     ```
@@ -48,7 +48,7 @@ Use `scp` to copy *recursively*, copy a directory and all the files and director
     We can now run and compile the tests for the repository on the remote server:
     ![Image](photo3/compile.png)
 
-* Combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line:
+5. Combining `scp`, `;`, and `ssh` to copy the whole directory and run the tests in one line:
     ![Image](photo3/fastrun.png)
 
 
