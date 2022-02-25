@@ -34,7 +34,7 @@ I used [CommonMark demo](https://spec.commonmark.org/dingus/) site for output pr
 
     There is a small (<10 lines) code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. Our group can a condition to locate the backticks and ignores **[** or **]** between them. 
 
-* **Snippet2:**: 
+* **Snippet2:**
    
    There is a large (>10 lines) code change that will make my program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets. Since our group code doesn't check for special characters inside **[ ]**. Therefore, we need to check for the special characters, recognize escaped brackets and parse the nested brackets. 
 
