@@ -17,7 +17,7 @@ I used [CommonMark demo](https://spec.commonmark.org/dingus/) site for output pr
 * Code in `MarkdownParseTest.java`:
     ![Image](photo4/mygrouptest.png)
 
-* Corresponding output when running the tests:
+* Corresponding output when running the tests: 
     ![Image](photo4/mygroupoutput.png)
 
 **Reviewed Group:**
@@ -29,7 +29,7 @@ I used [CommonMark demo](https://spec.commonmark.org/dingus/) site for output pr
     ![Image](photo4/reviewedoutput2.png)
     ![Image](photo4/reviewedoutput3.png)
 
-**Code Changes for Snippets**
+## **Code Changes for Snippets**
 * **Snippet1:**
 
     There is a small (<10 lines) code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. Our group can a condition to locate the backticks and ignores **[** or **]** between them. 
