@@ -11,6 +11,23 @@
 ## **Running and Debugging Markdown Snippets**
 
 I used [CommonMark demo](https://spec.commonmark.org/dingus/) site for output produce. 
+* **Snippet1:**
+    ![Image](photo4/2.png)
+
+    *Output:*
+    ![Image](photo4/output1.png)
+
+* **Snippet2:**
+    ![Image](photo4/1.png)
+
+    *Output:*
+    ![Image](photo4/output2.png)
+
+* **Snippet3:**
+    ![Image](photo4/3.png)
+
+    *Output:*
+    ![Image](photo4/output3.png)
     
 **My Group:**
 
