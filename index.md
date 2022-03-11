@@ -11,6 +11,8 @@
 
 **Lab 4** [Debuggers](https://anhbch.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
+**Lab 5** [Different bugs](https://anhbch.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 
 
 
